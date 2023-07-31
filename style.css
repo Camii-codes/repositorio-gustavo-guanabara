@@ -1,0 +1,87 @@
+@charset "UTF-8";
+
+body {
+    background-color: #d7d7d7;
+    background-attachment: fixed;
+}
+
+
+header {
+    margin: 5px;
+    padding: 10px;
+}
+
+header > h1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.8em;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 5px;
+}
+
+header > p {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 0.8em;
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+.icone {
+    width: 50px;
+    display: block;
+    margin: auto;
+    padding: 5px;
+}
+
+main {
+    font-size: 0.9em;
+    max-width: 100px;
+    min-width: 770px;
+    margin: auto;
+}
+
+main h2 {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+main h2:hover::after {
+    content: '\1F517' ;
+}
+
+main p {
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 1.7em;
+}
+
+main img {
+    display: block;
+    margin: auto;
+    width: 250px;
+}
+
+aside {
+    columns: 2;
+}
+
+ul > a {
+    font-size: 0.8em;
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 1.5em;
+    text-decoration: none;
+}
+
+ul.html-css > a:hover {
+    color: rgb(167, 45, 1);
+}
+
+ul.javascript > a:hover {
+    color: rgb(168, 168, 1);
+}
+ footer {
+    text-align: right;
+ }
+
+footer > p > a {
+    text-decoration: none;
+ }
